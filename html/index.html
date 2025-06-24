@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <title>Null-Loading</title>
+    </head>
+
+    <body>
+        <div id="loading-main">
+            <q-carousel animated style="width: 28vw;" infinite :autoplay="secondap" v-model="secondslide" transition-next="fade" transition-prev="fade" control-color="white" arrows padding class="bg-transparent text-white">
+                <q-carousel-slide name="1" class="column no-wrap flex-center">
+                    <div style="width: 30vw; white-space: pre-wrap;" class="text-weight-regular text-center text-body1">
+                        {{ KeybindTitle }}
+                    </div>
+                    <div class=""q-mt-md text-center">
+                        <q-btn :ripple="false" flat stack>
+                            
+                        </q-btn>
+                    </div>
+                </q-carousel-slide>
+            </q-carousel>
+        </div>
+    </body>
+</html>
