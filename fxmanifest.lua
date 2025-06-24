@@ -10,7 +10,6 @@ lua54 'yes'
 files {
     'assets/audio/*',
     'assets/img/*',
-    'assets/img/*',
     'html/*'
 }
 
