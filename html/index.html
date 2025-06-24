@@ -6,14 +6,16 @@
         <title>Null-Loading</title>
     </head>
 
+    <audio autoplay loop id="audio" src="/assets/audio/Access.mp3"></audio>
+
     <body>
-        <div id="loading-main">
+        <div id="loading-main" style="min-height: auto;">
             <q-carousel animated style="width: 28vw;" infinite :autoplay="secondap" v-model="secondslide" transition-next="fade" transition-prev="fade" control-color="white" arrows padding class="bg-transparent text-white">
                 <q-carousel-slide name="1" class="column no-wrap flex-center">
                     <div style="width: 30vw; white-space: pre-wrap;" class="text-weight-regular text-center text-body1">
                         {{ KeybindTitle }}
                     </div>
-                    <div class=""q-mt-md text-center">
+                    <div class="q-mt-md text-center">
                         <q-btn :ripple="false" flat stack>
                             
                         </q-btn>

@@ -9,6 +9,10 @@ const load = Vue.createApp({
             LoadingTitle:'Loading Null-City',
             LoadingDesc:'Loading Null-City assets',
 
+            SettingsTitle: '設定',
+            AudioTrackDesc1: '無効にすると、現在のオーディオトラックの再生が停止します。',
+            AutoPlayDesc2: '無効にすると、カルーセル画像は循環を停止し、最後に表示された画像に留まります。',
+
             KeybindTitle:'デフォルトキー設定',
             keybind1:'Open Inventory',
             keybind2:'Open Phone',
@@ -18,6 +22,7 @@ const load = Vue.createApp({
             seconfap: ref(true),
             firstslide: ref(1),
             seccondslide: ref('1'),
+            audioplay: ref(true),
             loading: ref(true),
         }
     }
