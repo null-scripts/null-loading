@@ -14,7 +14,7 @@ files {
 }
 
 loadscreen {
-    'html/*.html'
+    'html/index.html'
 }
 
 loadscreen_cursor 'yes'
